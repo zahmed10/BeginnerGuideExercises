@@ -7,7 +7,7 @@ how old they will be in the current year. (it also checks to make
 sure a future year has not been entered.) It then tells the user if
 they were born in a leap year. */
 #include <stdio.h>
-#define CURRENTYEAR 2013
+#define CURRENTYEAR 2022 // Updated from original code
 main()
 {
     int yearBorn, age;
