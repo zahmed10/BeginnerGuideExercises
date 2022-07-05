@@ -19,7 +19,7 @@ main(){
         getchar();
     }
     
-    fptr = fopen("file name here","w");
+    fptr = fopen("/Users/zayd/Code/CProgrammingAbsoluteBeginner'sGuide/Chapters26-30/BookInfo.txt","w");
 
     if (fptr==0){
         printf("Error -- file could not be opened.\n");
