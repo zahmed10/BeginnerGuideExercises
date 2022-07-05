@@ -4,7 +4,7 @@ FILE * fptr;
 
 main(){
     char fileLine[100];
-    fptr = fopen("file path here",
+    fptr = fopen("BookInfo.txt path here",
     "r");
 
     if (fptr!=0)
