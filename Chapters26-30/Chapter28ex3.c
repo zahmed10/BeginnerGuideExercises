@@ -4,7 +4,7 @@
 FILE * fptr;
 
 main(){
-    fptr = fopen("/Users/zayd/Code/CProgrammingAbsoluteBeginner'sGuide/Chapters26-30/BookInfo.txt",
+    fptr = fopen("BookInfo.txt path here",
     "a");
 
     if (fptr==0){
